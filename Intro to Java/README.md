@@ -1,4 +1,4 @@
-# Intro to Java
+# Introduction to Java
 
 My repository for practicing Java. Assignments come from the "Intro to Java" class at the RevaturePro website.
 
