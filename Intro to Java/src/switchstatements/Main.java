@@ -1,5 +1,7 @@
 package switchstatements;
 
+import index.Back;
+
 public class Main {
 
     public void start() {
@@ -7,6 +9,8 @@ public class Main {
         new SwitchExample().start();
 
         new SwitchExample2().start();
+    
+        new Back().start();
 
     }
 

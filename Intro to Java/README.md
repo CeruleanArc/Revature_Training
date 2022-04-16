@@ -72,9 +72,9 @@ You can access an index that doesn't exist within a given array, but you will ru
 
 #### Multi-dimensional Arrays
 
-Above we discussed one-dimensional arrays, but an entirely different array can serve as an element of any given array. When an array is nested within an array, you need two numbers to identify the location of any given element. These are **two-dimensional** arrays. Similarly, an array nested inside of an array that is nested within another array is a ***three-dimensional array**.
+Above we discussed one-dimensional arrays, but an entirely different array can serve as an element of any given array. When an array is nested within an array, you need two numbers to identify the location of any given element. These are **two-dimensional** arrays. Similarly, an array nested inside an array that is nested within another array is a ***three-dimensional array**.
 
-Multi-dimensional arrays are initialized in the same way as one-dimensional arrays, but with multiple sets of brackets ([]), one set for each dimension. Below is an example:
+Multidimensional arrays are initialized in the same way as one-dimensional arrays, but with multiple sets of brackets ([]), one set for each dimension. Below is an example:
 
 ```java
 // declare a 2d array - using the literal method
@@ -94,7 +94,7 @@ array2d[0][0] = 1;
 
 **Boolean algebra** is the conversion of logical statements to a mathematical expression, where the same laws of mathematics applies. The inputs and outputs in boolean algebra are only "true" or "false."
 
-There are several different types of boolean operators:
+There are different types of boolean operators:
 * **AND:** Both values must be true for the result to be true.
 * **OR:** Either value must be true for the result to be true, but at least one value must be true.
 * **XOR:** One and only one of the values can be true for the result to be true.
@@ -140,7 +140,7 @@ if (condition_1) {
 
 #### Switch Statements
 
-**Switch statemnents** can be used in lieu of multiple if-statements. A switch specifies conditions through which a program will enter based on matching a value and executing the associated statements.
+**Switch statements** can be used in lieu of multiple if-statements. A switch specifies conditions through which a program will enter based on matching a value and executing the associated statements.
 
 ```java
 // Create a variable for use with the switch statement.
@@ -190,3 +190,4 @@ Two resources are used to evaluate algorithms: **time** and **memory**. The less
 
 #### Pseudocode
 
+**Pseudocode** is a "code-like" language that you can use to play out a solution for a program.
