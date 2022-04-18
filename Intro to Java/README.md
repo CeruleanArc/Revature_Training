@@ -190,4 +190,41 @@ Two resources are used to evaluate algorithms: **time** and **memory**. The less
 
 #### Pseudocode
 
-**Pseudocode** is a "code-like" language that you can use to play out a solution for a program.
+**Pseudocode** is a "code-like" language that you can use to play out a solution for a program. For example:
+
+```java
+get input from user
+set variable num to input
+
+if (num divided by 2 has remainder equal to zero)
+	return true
+else
+	return false
+```
+
+As our knowledge of code improves, our pseudocode may become shorter, as seen below:
+
+```java
+get input from user
+set var num to input
+
+if (num % 2 == 0)
+	return true
+else
+	return false
+```
+
+* To create a variable use set: `set val to 5` or `var = 5`
+* To create an if-statement use if: `if (condition)`
+* To create a switch statement use switch: `switch (value)`
+* To create a for-loop use for: `for (range)`
+
+#### Big-O Notation
+
+If an algorithm has a lot of inputs, an algorithm may take longer to process all of them or require more space. We measure the rate that time or memory requirements increase as the number of inputs increases to an arbitrarily large number. This is called **complexity**.
+
+**Big-O notation** is when complexity is expressed as if it were a function named *O*, and the complexity scale is given as some transformation of the variable *n*, where *n* is the number of inputs in the algorithm: *O*(*f*(*n*)). An algorithm that runs in *O*(*n*) time is one whose run time increases linearly with the number of inputs.
+
+Different algorithms can have different best, worst, and expected (average) complexities. We are generally concerned with the worst-case measurement, since this tends to be the most useful. Common scaling factors include:
+* O(1): Constant scaling.
+* O(log n)): Logarithmic scaling; "divide and conquer."
