@@ -36,7 +36,7 @@ There are multiple types of BPMs on the market. One of these is **Appian**, whic
 1. **Design:** Break the process down into multiple tasks. Most processes include a form to collect data and a workflow to process it. Build your form and identify who will own each task in the workflow.
 2. **Model:** Model it using suitable BPM software. Represent the process in a visual layout. Fix details like deadlines and conditions to give a clear idea of the sequence of event and the flow of data throughout the process.
 
-![BPM Modeling](../Media/BPM%20Modeling.png)
+![BPM Modeling](../Media/BPM%20Modeling.png?raw=true)
 
 3. **Execute:** Execute the process, or put a system in place. Execute the process by testing it live with a small group first (alpha testing) and then open it up to all users (beta testing). Make sure you restrict access to sensitive information.
 4. **Monitor:** Monitor and analyze the system. Keep an eye on the process as it runs through the workflow. Use the right metrics to identify progress, measure efficiency, and locate bottlenecks.

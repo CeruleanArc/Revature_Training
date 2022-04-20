@@ -1,6 +1,6 @@
 ## Study Assignment for the First 3 Days
 
-* [Appian Objects View](./2%20Tuesday%20HW.md#objects-view)
+* [Appian Objects View](./2%20Tuesday%20Home%20Study.md#objects-view)
 * [Appian Foundations](https://academy.appian.com/#/curricula/1b1f8760-8e04-4696-9112-b96fd5842efb)
   * *Lesson 1* – Appian Essentials
   * *Lesson 2* – Application Architecture: Get Started Designing an App
