@@ -4,7 +4,7 @@ The **Objects View** consists of tabs that list design objects and plug-ins acro
 
 ### Design Objects Tab
 
-![Objects View](../Media/Objects View.png)
+![Objects View](../Media/Objects View.png?raw=true)
 
 The **Design Objects** tab displays objects when you apply filters or search by name or description. See [Designer Search](https://docs.appian.com/suite/help/22.1/find_and_search_in_appian.html) for more information about how to efficiently search for objects.
 
