@@ -2,7 +2,7 @@
 
 * [Appian Objects View](./2%20Tuesday%20Home%20Study.md#objects-view)
 * [Appian Foundations](https://academy.appian.com/#/curricula/1b1f8760-8e04-4696-9112-b96fd5842efb)
-  * *Lesson 1* – Appian Essentials
+  * *[Lesson 1 – Appian Essentials](../Appian%20Foundations/Lesson%201%20Appian%20Essentials.md#Lesson-1:-appian-essentials)*
   * *Lesson 2* – Application Architecture: Get Started Designing an App
   * *Lesson 3* – Quick Apps: Build Apps Fast and with No Code
   * *Lesson 4* – Create an Application
