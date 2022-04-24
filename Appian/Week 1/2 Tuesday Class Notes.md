@@ -187,57 +187,84 @@ The function accepts the following parameters:
 ### Example: Employee Information Collection Form
 
 ```
-a!formLayout (
+a!formLayout(
   label: "Employee Info",
   instructions: "This form is used to collect employee information.",
   contents: {
-    a!textField (
+    a!textField(
       label: "First Name",
       instructions: "Enter your first name.",
       required: true,
       value: ri!firstName,
       saveInto: ri!firstName,
+      
     ),
-    a!textField (
+    a!textField(
       label: "Last Name",
       instructions: "Enter your last name.",
       required: true,
       value: ri!lastName,
       saveInto: ri!lastName,
+      
     ),
-    a!integerField (
+    a!integerField(
       label: "Age",
       value: ri!age,
       saveInto: ri!age,
+      
     ),
     a!dateField(
       label: "Date of Birth",
       value: ri!dob,
       saveInto: ri!dob,
+      
     ),
     a!checkboxField(
       label: "Office Branch",
-      choiceLabels: {"New York", "Texas", "District of Columbia"},
-      choiceValues: {"NY", "TX", "DC"},
+      choiceLabels: {
+        "New York",
+        "Texas",
+        "District of Columbia"
+      },
+      choiceValues: { "NY", "TX", "DC" },
       value: ri!officeBranch,
       saveInto: ri!officeBranch,
+      
     ),
     a!dropdownField(
       label: "Gender",
-      choiceLabels: {"Male", "Female", "Transmale", "Transfemale", "Intersex", "Prefer not to say"},
-      choiceValues: {"male", "female", "ftm", "mft", "intersex", "unknown"},
+      choiceLabels: {
+        "Male",
+        "Female",
+        "Transmale",
+        "Transfemale",
+        "Intersex",
+        "Prefer not to say"
+      },
+      choiceValues: {
+        "male",
+        "female",
+        "ftm",
+        "mft",
+        "intersex",
+        "unknown"
+      },
       value: ri!gender,
       saveInto: ri!gender,
       placeholder: "Select a gender",
+      
     ),
     a!multipleDropdownField(
       label: "Languages Known",
-      choiceLabels: {"English", "Hindi", "French", "Spanish"},
-      choiceValues: {"eng", "hin", "fre", "spa"},
+      choiceLabels: { "English", "Hindi", "French", "Spanish" },
+      choiceValues: { "eng", "hin", "fre", "spa" },
       value: ri!languagesKnown,
       saveInto: ri!languagesKnown,
       placeholder: "Select a language",
+      
     ),
+    
   },
+  
 )
 ```
